@@ -1,13 +1,13 @@
 variable "instance_db_name" {
-  default = "a.z.e.p-wordpress-db"
+  default = "yourname-wordpress-db"
 }
 
 variable "instance_db_ip" {
-  default = "10.36.36.120"
+  default = "10.1.1..120"
 }
 
 variable "mysql_host" {
-  default = "10.36.36.120"
+  default = "10.1.1.120"
 }
 
 variable "mysql_port" {
@@ -27,7 +27,7 @@ variable "mysql_database" {
 }
 
 variable "docker_container_name" {
-  default = "a.z.e.p-wordpress"
+  default = "yourname-wordpress"
 }
 
 variable "image" {
